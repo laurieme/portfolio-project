@@ -1,11 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
-}
 
 .navigation-wrapper {
    height: 190px;
@@ -85,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/LakeMary.jpg);
+   background-image: url(assets/laurie_blue.png);
    padding: 100px;
    height: 300px;
    background-attachment: fixed;

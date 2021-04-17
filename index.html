@@ -1,7 +1,28 @@
-tml>
 <html>
 
 <head>
+    <!-- parent -->
+    <div style="display: flex">
+        <!-- children -->
+        <div style="width: 100px">Child 1</div>
+        <div style="width: 100px">Child 2</div>
+        <div style="width: 100px">Child 3</div>
+    </div>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#about.html" class="active">Laurie Mecham</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#index">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#socialmedia">Social Media</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <meta charset="utf-8" />
     <title>Laurie</title>
     <link rel="icon" href="assets/Logo.png" type="image/x-icon">
@@ -54,6 +75,85 @@ tml>
             <h3>Hello</h3>
         </div>
     </div>
+
+    <body>
+        <!-- Grid -->
+        <div class="grid-container">
+            <!-- Header -->
+            <header class="header-container">
+                <!-- Navigation -->
+                <nav class="header-flex">
+                    <img src="assets/Laurie_profile.png" alt="Laurie profile" width="300px">
+                    <a href="#">homepage</a>
+                    <a href="#">experience</a>
+                    <a href="#">skills</a>
+                    <a href="#">socialmedia</a>
+                </nav>
+            </header>
+
+            <!-- Body -->
+            <main class="body-container">
+                <div class="body-flex">
+                    <div>
+                        <img src="assets/techMoms-spring-2021.PNG" width="500px">
+                    </div>
+
+                    <div style="margin-left: 20px">
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                            labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                            consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                            nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                        </p>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                            labore et dolore magnam aliquam quaerat voluptatem.
+                        </p>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo.
+                        </p>
+                    </div>
+                </div>
+            </main>
+
+            <!-- SIDEBAR -->
+            <div class="sidebar-container">
+                <div class="sidebar-content">
+                    Want to find out how you can join TechMoms?
+                </div>
+                <button class="sidebar-btn">Click Here!</button>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer-container">
+                <div>
+                    <div>
+                        <i class="fab fa-facebook-square fa-3x mt-10"></i>
+                        <i class="fab fa-linkedin fa-3x mt-10"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                    </div>
+
+                    <div>
+                        Copyright 2021, all rights reserved
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </body>
 
     <!-- CONTENT FEATURES -->
     <div class="features-section">
