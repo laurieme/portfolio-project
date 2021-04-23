@@ -14,59 +14,52 @@
  .nav-link {
    background-color: white;
    height: 100px;
-   width: 50%;
+   width: 100%;
    border-bottom: 5px solid black;
+   padding-bottom: 50px;
 }
 
  .timeline-graduation {
-    background-color: lightblue;
-    height: 370px;
+    background-color: #99CEFD;
+    height: 450px;
     width: 50%;
     border-top: 5px solid black;
  }
  
  .timeline-family {
     background-color: white;
-    height: 370px;
+    height: 450px;
     width: 50%;
     border-top: 5px solid black;
  }
 
  .timeline-learn {
    background-color: white;
-   height: 370px;
+   height: 450px;
    width: 50%;
    padding-top: 50px;
 }
 
 .timeline-school {
-   background-color: lightblue;
-   height: 370px;
+   background-color: #99CEFD;
+   height: 450px;
    width: 50%;
    padding-top: 50px;
 }
 
 .timeline-website {
-   background-color: lightblue;
-   height: 370px;
+   background-color: #99CEFD;
+   height: 450px;
    width: 50%;
-   padding-top: 30px;
+   padding-top: 50px;
 }
 
 .timeline-coding {
    background-color: white;
-   height: 370px;
+   height: 450px;
    width: 50%;
-   padding-top: 30px;
-}
-
- .tooltip {
-   position: relative;
-   display: inline-block;
-   text-align: center;
-   width: 100%;
    padding-top: 50px;
- }
+}
 
  .timeline-whatsnext {
     position:relative;
@@ -75,10 +68,19 @@
     width: 300px;
     padding-top: 50px;
  }
+
+ .tooltip {
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+   padding-top: 0px;
+ }
  
  .tooltip .tooltiptext {
    visibility: hidden;
-   width: 200px;
+   width: 400px;
+   font-size: 30px;
    background-color: #555;
    color: #fff;
    text-align: center;
@@ -98,7 +100,7 @@
    position: absolute;
    top: 100%;
    left: 50%;
-   margin-left: -5px;
+   margin-left: -70px;
    border-width: 5px;
    border-style: solid;
    border-color: #555 transparent transparent transparent;
@@ -115,4 +117,6 @@
    width: flex;
    border-top: 5px solid black;
 }
+
+
  
