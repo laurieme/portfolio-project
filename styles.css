@@ -7,7 +7,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 60px 200px;
+   padding: 50px 50px 200px 200px;
 }
 
 .left-column {
@@ -16,7 +16,6 @@
 }
 
 .header-styles {
-   font-family: 'source serif Pro', 'sans-serif'; 
    font-family: 'Source Sans Pro', serif;
 }
 
@@ -44,7 +43,6 @@
 .link-wrapper-right {
    display: flex;  
    justify-content:right;
-   width: 50%;
    padding-left: 500px;
  }
 
@@ -53,14 +51,22 @@
     text-align: center;
 }
 
+.about {
+   padding-left: 300px;
+   padding-right: 300px;
+   text-align: left;
+    text-align: center;
+}
+
 .nav-link a {
-   font-family: 'Source Serif Pro', sans-serif;
+   font-family: 'Source Sans Pro', serif;
    color: black;
    text-decoration: none;
    transition: 0.5s;
 }
 .nav-bar-top {
    display: flex;
+   font: bold;
 }
 
 .nav-link a:hover {
@@ -147,8 +153,8 @@
 .skills-description {
    text-align: center;
    font-size: 18px;
-   padding-left: 150px;
-   padding-right: 170px;
+   padding-left: 120px;
+   padding-right: 150px;
 }
 
 .mywork {
@@ -166,7 +172,7 @@
    padding-right: 5%;
    justify-content: space-around;
    align-items: center;
-   font-family: 'Source Serif Pro', sans-serif;
+   font-family: 'Source Sans Pro', serif;
 }
 
 /* .box {
